@@ -1,0 +1,3 @@
+==Web Based File Explorer
+
+This is a very simple web server which allows you to explore your files and directories on your hard disk in a browser!
