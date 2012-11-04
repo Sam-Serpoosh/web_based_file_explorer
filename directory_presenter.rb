@@ -23,7 +23,7 @@ class DirectoryPresenter
 
   def self.format(entry)
     if File.directory?(entry)
-      formatted = "<a href=\"http://localhost:2000?dir=#{entry}\">#{entry}/<a>"
+      formatted = "<a href=\"http://localhost:2000?dir=#{entry}\">#{entry}/</a>"
     else
       formatted = "<a href=\"http://localhost:2000?file=#{entry}\">#{entry}</a>" 
     end
